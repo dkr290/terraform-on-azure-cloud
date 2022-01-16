@@ -68,5 +68,11 @@ variable "bastion_subnet_address" {
   default = ["10.0.100.0/24"]
 }
 
+variable "source_address_prefix" {
+  
+  default = ""
+  
+}
+
 
 
