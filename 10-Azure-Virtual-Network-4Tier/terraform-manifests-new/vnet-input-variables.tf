@@ -1,6 +1,6 @@
 variable "vnet_name" {
     description = "Virtual Network Name"
-    type string
+    type = string
     default = "vnet-default"
   
 }
